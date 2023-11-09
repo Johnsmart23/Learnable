@@ -110,7 +110,6 @@
     padding: 4px;
     border-radius: 10px;
     text-decoration: none;
-  }
   .fa-google {
     color:    #34A853;
     border-radius: 10px;
@@ -145,13 +144,4 @@
     border-radius: 10px;
     text-decoration: none;
   }
-  @media screen and (max-width: 800px) {
-    .image-2 {
-      flex: 50%;
-      max-width: 50%;
-    }
-    .image-1{
-        flex: 100%;
-        max-width: 100%;
-    }
-  }
+ 
