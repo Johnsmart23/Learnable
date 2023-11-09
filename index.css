@@ -47,22 +47,23 @@
 }
 .blue{
     color: #44C3EBCC;
-    margin-left: -400px;
+    margin-left: -200px;
     padding-top: 150px;
 }
 .pace{
-    margin-left: 80px;
-    font-size: 20px;
+    margin-left: 120px;
+    font-size: 30px;
     word-spacing: 30px;
     padding-bottom: 20px;
 }
 .buy{
     background: #df6d05;
-    padding: 5px;
+    padding: 10px;
     color: white;
     border-radius: 20px;
-    margin-left: 80px;
-}
+    margin-left: 120px;
+} 
+
 
 #Cleaning{
     background: linear-gradient(to right, #b97c02 25%, #df6d05 75%);
