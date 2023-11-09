@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    background: white;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    word-spacing: 0px;
+    height: 500px;
+    padding: 20px;
+}
+.navbar{
+    text-align: center;
+    padding: 20px;
+}
+.navbar, a{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.viss{
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.log{
+    float: right;
+    padding: 10px;
+   
+}
+.split{
+    float: right;
+    color: white;
+    background: #df6d05;
+    padding: 10px;
+    border-radius: 20px;
+}
+.image-1{
+    float: right;
+    margin-right: 80px;
+    width: 350px;
+    padding: 10px;
+}
+.blue{
+    color: #44C3EBCC;
+    margin-left: -400px;
+    padding-top: 150px;
+}
+.pace{
+    margin-left: 80px;
+    font-size: 20px;
+    word-spacing: 30px;
+    padding-bottom: 20px;
+}
+.buy{
+    background: #df6d05;
+    padding: 5px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+#Cleaning{
+    background: linear-gradient(to right, #b97c02 25%, #df6d05 75%);
+    word-spacing: 0px;
+    height: 500px;
+    padding: 80px;
+}
+.image-2{
+    float: right;
+    margin-top: -30px;
+    margin-right: -50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 300px
+}
+.clean{
+    background: white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 375px;
+    margin-right: 250px;
+    margin-left: 280px;
+    padding: 30px;
+}
+.clean, h1{
+    text-align: center;
+}
+.clean, p{
+    font-size: 13px;
+}
+.facebook{
+    font-size: 15px;
+    font-family: Poppins;
+    margin-left: -10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+}
+.fa-facebook {
+    background: #0C82EE;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .fa-google {
+    color:    #34A853;
+    border-radius: 10px;
+    padding: 4px;
+    text-decoration: none;
+  }
+  .fa-apple {
+    background: #111;
+    color: white;
+    font-size: 5px;
+    align-items: center;
+    padding: 4px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+  .fa-twitter {
+    color: #0C82EE;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 4px;
+    align-items: center;
+  }
+  .fa-envelope{
+    color: #111;
+    border-radius: 10px;
+    padding: 4px;
+    text-decoration: none;
+  }
+  .fa-mobile{
+    color: #111;
+    padding: 4px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 800px) {
+    .image-2 {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .image-1{
+        flex: 100%;
+        max-width: 100%;
+    }
+  }
